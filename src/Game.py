@@ -204,6 +204,7 @@ class Game:
                 if self.turn == 1:
                     # Bot's turn
                     self.screen.draw_turn_title(self.turn)
+                    time.sleep(0.5)
                     self.move()
                     check = self.goal_check()
                     self.turn = 0
