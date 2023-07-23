@@ -1,12 +1,12 @@
 # TicTacToe
-TicTacToe game app using alpha-beta pruning algorithm to build up. `Game` class is used to process the game execution. `Screen` class uses pygame to build GUI. 
+TicTacToe game app using alpha-beta pruning algorithm to build up. `Game` class is used to process the game execution. `Screen` class uses pygame to build GUI.
 ## Setting up
 Create the virtual environment by the following steps
 ```bash
-python3 -m venv <venv_name>
+python -m venv <venv_name>
 ```
 
-To activate
+Assumed `<venv_name>` is `venv`. To activate
 - On Window
 ```bash
 .\venv\Scripts\activate
@@ -22,13 +22,15 @@ Once the virtual environment is activated, install packages `requirements.txt`
 pip install -r requirements.txt
 ```
 
-To deactivate, use
+To deactivate, use:
 ```bash
 deactivate
 ```
 
 ## Run
-Run file `main.py` to play 
+Run file `main.py` to play.
+
+**Notice**: The environment should be activated before running
 ```bash
 python main.py
 ```
